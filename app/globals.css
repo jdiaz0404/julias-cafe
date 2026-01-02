@@ -24,3 +24,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+:root {
+  --primary-color: #e63946; /* Peruvian red */
+  --secondary-color: #f1faee; /* Neutral white/cream */
+}
+
+body {
+  background-color: var(--secondary-color);
+  color: #1d1d1d;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
